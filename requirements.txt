@@ -3,6 +3,7 @@ Django-cors-headers
 Django-rest-auth
 Djangorestframework
 Django-allauth
+Django-Heroku
 gunicorn
 psycopg2
 six
