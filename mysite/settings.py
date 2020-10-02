@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%blf*5&ir465!&3+@42yohx8q3^ea87dj-oi%#55!u^yj&6*q$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://select-dine.herokuapp.com/', 'localhost', '127.0.0.1']
 
@@ -164,6 +164,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+STATIC_URL = '/static/'
 
 # Page to go after successfull login
 LOGIN_REDIRECT_URL = 'home'
