@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 import os
 import django_heroku
 
-# django_heroku.settings(locals())
+django_heroku.settings(locals())
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -29,7 +29,7 @@ SECRET_KEY = '%blf*5&ir465!&3+@42yohx8q3^ea87dj-oi%#55!u^yj&6*q$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://select-dine.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://select-dine.herokuapp.com/', 'localhost', '127.0.0.1']
 
 
 # Application definition
